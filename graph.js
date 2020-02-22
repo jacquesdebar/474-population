@@ -161,8 +161,8 @@
 
     let line = d3
       .line()
-      .x(d => xScale(d["year"])) // set the x values for the line generator
-      .y(d => yScale(d["population"])); // set the y values for the line generator
+      .x(d => xScale(d["year"]))
+      .y(d => yScale(d["population"]));
 
     tooltipSvg
       .append("path")
